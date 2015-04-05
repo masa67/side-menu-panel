@@ -1,6 +1,6 @@
 
-/*global $ */
-var sideMenu = (function () {
+/*global jQuery */
+var sideMenu = (function ($) {
     'use strict';
 
     var menuOpen = false;
@@ -53,4 +53,4 @@ var sideMenu = (function () {
     return {
         create: createSideMenu
     };
-}());
+}(jQuery));
